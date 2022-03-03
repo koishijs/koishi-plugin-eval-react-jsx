@@ -1,0 +1,47 @@
+{
+  "name": "koishi-plugin-eval-react-jsx",
+  "version": "1.0.2",
+  "description": "React JSX support for @koishi/plugin-eval",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "engines": {
+    "node": ">=14.6.0"
+  },
+  "files": [
+    "lib"
+  ],
+  "license": "MIT",
+  "author": "Shigma <shigma10826@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koishijs/koishi-plugin-eval-react-jsx.git"
+  },
+  "bugs": {
+    "url": "https://github.com/koishijs/koishi-plugin-eval-react-jsx/issues"
+  },
+  "homepage": "https://github.com/koishijs/koishi-plugin-eval-react-jsx",
+  "keywords": [
+    "bot",
+    "chatbot",
+    "koishi",
+    "plugin",
+    "eval",
+    "react",
+    "jsx",
+    "required:worker",
+    "required:puppeteer"
+  ],
+  "devDependencies": {
+    "@types/react": "*",
+    "@types/react-dom": "*"
+  },
+  "peerDependencies": {
+    "@koishijs/plugin-eval": "^4.0.2",
+    "@koishijs/plugin-puppeteer": "^3.0.3",
+    "koishi": "^4.3.3"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
